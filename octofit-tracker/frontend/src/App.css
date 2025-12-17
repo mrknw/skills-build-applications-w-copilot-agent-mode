@@ -1,0 +1,99 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3a86ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.table th {
+  background: #8338ec !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f1f3f8;
+}
+.table-hover tbody tr:hover {
+  background-color: #e0eafc;
+}
+
+.btn, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(131,56,236,0.08);
+  border: none;
+}
+
+a, .App-link {
+  color: #3a86ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ff006e;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+  .octofit-logo {
+    height: 36px;
+    margin-right: 8px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
